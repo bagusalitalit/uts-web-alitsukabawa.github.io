@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/*css brand logo nama*/
+.brand span{
+    margin-left: 0;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color:aqua;
+    text-decoration:  none;
+}
+
+.brand li,a,button{
+    margin-left: 0;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:aqua;
+    text-decoration:  none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(81, 0, 128);
+}
+
+.brand{
+    display:inline-block;
+    padding:5px;
+}
+
+.brand span{
+    margin-right: 250px;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.brand input{
+    border-radius: 15px;
+    padding:9px 10px;
+}
+
+.brand button{
+    padding:9px 10px;
+    background-color: aqua(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3px ease 0s;
+}
+
+.brand button:hover{
+    background-color: aqua(0,136,169,0);
+}
+
+/*jumbotron*/
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: "poppins" , sans-serif;
+    background-image: url('image/kelingking-beach-nusa-penida.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+
+}
+
+.jumbotron:hover{
+    background-image: url('image/kelingking-beach-nusa-penida.jpg');
+
+}
+
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: cyan;
+}
+
+.text-brand{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.text-brand h1{
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px;
+    color: white;
+}
+
+.btn-jelajahi{
+    width: 200px;
+    height:50px;
+    background-color: aqua;
+    text-align: center;
+    padding:10px;
+    display:inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px blue;
+}
+
+.btn-jelajahi:hover{
+    background-color: aqua;
+
+}
+
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn-vidio{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-vidio:hover{
+    background-color: aqua;
+}
+
+.btn-vidio a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*konten objek wisata*/
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: darkblue;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border: 1px solid #ccc;
+}
+
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+
+.objekwisata .isian h1{
+    font-size: 35px;
+    text-align: justify;
+}
+
+.objekwisata .isian p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-size: 35px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+
+.limk-img{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+    text-shadow: 1px 1px 3px blue;
+}
+/* Acomodation */
+.acomodation img {
+    position: absolute;
+    width: 1440px;
+    height: 707px;
+    left: 0px;
+    top: 2240px;
+    background: #D9D9D9;
+}
+.acomodation h1 {
+    position: absolute;
+    left: 535px;
+    top: 2260px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000C03;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.kolom {
+    position: relative;
+    background: #719374;
+    width: 1280px;
+    height: 562px;
+    left: 80px;
+    top: 2337px;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    justify-content: center;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border-radius: 20px 20px 3px 3px;
+}
+.card {
+    width: 414px;
+    height: 480px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.acomodation h2 {
+    text-align: center;
+    padding: 8px 0px;
+}
+.acomodation h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #000C03;
+}
+.price {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000C03;
+}
+.acomodation .star {
+    padding-left: 20px;
+    font-size: 25px;
+}
+.acomodation a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.acomodation a:hover {
+    color: #000C03;
+}
+.villa .cover {
+    background-image: url(image/gambar villa 1.jpeg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+.villa .cover {
+    background-image: url(image/agasta villa.jpeg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+.villa .cover {
+    background-image: url(image/atalaya villa.jpeg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+
